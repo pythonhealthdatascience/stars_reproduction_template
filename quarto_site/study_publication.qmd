@@ -1,0 +1,17 @@
+---
+title: "Publication"
+---
+
+## Code and data
+
+<!-- TODO: Add link to folder in repository -->
+View at: <[Link]>
+
+## Journal article
+
+<!-- TODO: Embed article PDF - e.g.
+<iframe width="100%" height="800" src="../original_study/article.pdf"></iframe>-->
+
+## Supplementary materials
+
+<!-- TODO: Embed supplementary PDF (if relevant) -->

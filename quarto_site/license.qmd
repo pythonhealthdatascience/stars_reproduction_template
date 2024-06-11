@@ -1,0 +1,27 @@
+---
+title: "Open Source License"
+---
+
+<!-- TODO: Update with appropriate license -->
+This repository is licensed under the [license].
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## View license
+
+{{< include  ../LICENSE >}}
+
+:::
+
+<!-- TODO: Update with appropriate license -->
+This is aligned with the original study, who [license].
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## View license
+
+<!-- TODO: Provide relative path to embed license from the original study, as done above for the main repository license -->
+[Embedded license]
+
+:::
+
