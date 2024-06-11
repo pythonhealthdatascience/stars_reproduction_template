@@ -1,0 +1,9 @@
+# TODO: Amend environment name and create environment
+name: reproduction_template
+channels:
+  - defaults
+dependencies:
+  - jupyter=1.0.0
+  - pandas=2.2.1
+  - plotly=5.19.0
+  - python=3.11.9
