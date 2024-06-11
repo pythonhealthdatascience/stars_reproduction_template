@@ -13,8 +13,8 @@ type: software
 authors:
   - given-names: Firstname
     family-names: Lastname
-    email: Email address
-    affiliation: Organisation
+    email: example@exeter.ac.uk
+    affiliation: University of Exeter
     orcid: 'https://orcid.org/0000-0000-0000-0000'
 # TODO: Amend to correct repository URL
 repository-code: >-
