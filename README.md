@@ -1,7 +1,8 @@
-<!-- TODO: Remove "[Template]" and amend title to refer to the first author and year of the original study -->
-# [Template] STARS: Computational reproducibility of <author> et al. <year>
+<!-- TODO: Remove "[Template]" and amend to refer to the first author and year of the original study -->
+# [Template] STARS: Computational reproducibility of [Author] et al. [Year]
 
-**This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository**.
+<!-- TODO: Remove this paragraph -->
+**This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository"**.
 
 <!-- Status badge from GitHub action checking validity of CITATION.cff -->
 <!-- TODO: Amend the URL to your repository -->
@@ -55,14 +56,14 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 └── requirements.txt
 ```
 
-**Key sections:** This files have all the content related to the original study and reproduction...
+**Key sections:** These folders have all the content related to the original study and reproduction...
 
 * **`original_study/`** - Original study materials (i.e. journal article, supplementary material, code and any other research artefacts).
 * **`reproduction/`** - Reproduction of the simulation model. Once complete, this functions as a research compendium for the model, containing all the code, parameters, outputs and documentation.
 * **`evaluation/`** - Quarto documents from the evaluation of computational reproducibility. This includes the scope, assessment of reproduction success, and comparison of the original study materials against various guidelines, and summary report.
 * **`logbook/`** - Daily record of work on this repository.
 
-**Other sections:** The following files support creation of the Quarto site to share the reproduction, or are other files important to the repository (e.g. `README`, `LICENSE`, `.gitignore`)...
+**Other sections:** The remaining files and folders support creation of the Quarto site to share the reproduction, or are other files important to the repository (e.g. `README`, `LICENSE`, `.gitignore`)...
 
 * `.github/workflows/` - GitHub actions.
 * `quarto_site/` - A Quarto website is used to share information from this repository (including the original study, reproduced model, and reproducibility evaluation). This folder contains any additional files required for creation of the site that do not otherwise belong in the other folders.
@@ -75,6 +76,8 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 * `_quarto.yml` - Set-up instructions for the Quarto website.
 * `citation_apalike.bib` - APA citation generated from CITATION.cff.
 * `citation_bibtex.bib` - Bibtex citation generated from CITATION.cff.
+<!-- TODO: Remove this once it has been made into an action -->
+* `docker_ghr.md` - Command for GitHub action to upload Docker image to GitHub container repository (converted into an action once a Dockerfile has been created)
 * `index.qmd` - Home page for the Quarto website.
 * `requirements.txt` - Environment for creation of Quarto site (used by `.github/workflows/quarto_publish.yaml`).
 
