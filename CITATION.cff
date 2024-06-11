@@ -11,8 +11,8 @@ type: software
 # TODO: List the authors involved in reproduction - first, the primary
 # researcher, followed by those providing advice/feedback on the reproduction.
 authors:
-  - given-names: First name
-    family-names: Last name
+  - given-names: Firstname
+    family-names: Lastname
     email: Email address
     affiliation: Organisation
     orcid: 'https://orcid.org/0000-0000-0000-0000'
