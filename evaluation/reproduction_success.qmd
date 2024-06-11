@@ -1,0 +1,18 @@
+---
+title: "Reproduction success"
+---
+
+<!-- TODO: Use skeleton to create page describing reproduction success. If it is subjective (e.g. comparing figures), be sure to explain how you decided that the figure was now successfully reproduced or not -->
+
+Of the X items in the scope, X% (X out of X) were considered to be **successfully reproduced**.
+
+## Figure X
+
+Original figure:
+
+<!-- Image, e.g.
+![](../original_study/article_fig2.png){width=70% fig-align="center"} -->
+
+Reproduction:
+
+<!-- Image -->

@@ -1,0 +1,31 @@
+---
+title: "Scope"
+---
+
+<!-- TODO: Use skeleton to create page describing scope -->
+
+This page outlines that parts of the journal article which we will attempt to reproduce.
+
+## Within scope
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## Figure X
+
+[Figure with full legend from paper]
+<!-- e.g.
+![Figure 2. "Patient state over time by unit. The patient population progresses through infection over three months (with 80% infected). The bold line shows the median results of 30 trials, and the fainter lines show the minimum and maximum from the 30 trials."](../original_study/article_fig2.png){width=80%}-->
+
+:::
+
+## Outside scope
+
+::: {.callout-note appearance="minimal" collapse=true}
+
+## Table X
+
+[Explanation of why it is outside scope]
+
+[Display table, including full legend from paper]
+
+:::
