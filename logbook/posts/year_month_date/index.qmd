@@ -33,6 +33,20 @@ More notes.
 Can use these to help keep repository organised if you are adding lots of notes for a particular task (e.g. notes from read through of paper).
 :::
 
+## 14.21-14.40: Comparing best practice audit results with Monks and Harper
+
+<!-- This is an example for a later stage in the assessment, when you want to sense-check the best practice audit against results from the review -->
+
+```{python}
+import pandas as pd
+
+# Import review results
+review = pd.read_csv('bp_audit_clean.csv')
+
+# Example: View the results for Allen et al. 2020
+review[review['key'] == 'R4ZLYWPP'].T
+```
+
 ## Timings
 
 ```{python}
