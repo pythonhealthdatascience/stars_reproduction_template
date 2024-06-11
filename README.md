@@ -4,6 +4,8 @@
 <!-- TODO: Remove this paragraph -->
 **This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository"**.
 
+**If you are using VSCode and encounter an error rendering files containing code - e.g. "*ERROR: Not a directory (os error 20): stat '/bin/python3/'*" - this is likely because you haven't set an interpreter for that file. You can do so via Ctrl+Shift+P "Python: Select Interpreter". You can use different interpreters for different files.**
+
 <!-- Status badge from GitHub action checking validity of CITATION.cff -->
 <!-- TODO: Amend the URL to your repository -->
 [![Valid CITATION.cff](https://github.com/pythonhealthdatascience/stars_reproduction_template/actions/workflows/cff_validation.yaml/badge.svg)](https://github.com/pythonhealthdatascience/stars_reproduction_template/actions/workflows/cff_validation.yaml)
