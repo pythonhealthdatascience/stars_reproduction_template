@@ -1,5 +1,8 @@
 # Reproduction README
 
+<!-- TODO: Remove this warning once filled out README -->
+**Please note: This is a template README and has not yet been completed**
+
 <!-- TODO: Fill out the README -->
 ## Model summary
 

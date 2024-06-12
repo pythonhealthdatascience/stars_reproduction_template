@@ -2,6 +2,9 @@
 title: "Scope"
 ---
 
+<!-- TODO: Remove this warning once filled out page -->
+**Please note: This is a template page and has not yet been completed**
+
 <!-- TODO: Use skeleton to create page describing scope -->
 
 This page outlines that parts of the journal article which we will attempt to reproduce.

@@ -2,6 +2,9 @@
 title: "Publication"
 ---
 
+<!-- TODO: Remove this warning once filled out page -->
+**Please note: This is a template page and has not yet been completed**
+
 ## Code and data
 
 <!-- TODO: Add link to folder in repository -->

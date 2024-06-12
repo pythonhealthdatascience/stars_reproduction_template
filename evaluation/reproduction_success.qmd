@@ -2,6 +2,9 @@
 title: "Reproduction success"
 ---
 
+<!-- TODO: Remove this warning once completed assessment -->
+**Please note: This is a template page and has not yet been completed**
+
 <!-- TODO: Use skeleton to create page describing reproduction success. If it is subjective (e.g. comparing figures), be sure to explain how you decided that the figure was now successfully reproduced or not -->
 
 Of the X items in the scope, X% (X out of X) were considered to be **successfully reproduced**.

@@ -7,7 +7,7 @@ bibliography: ../quarto_site/references.bib
 ---
 
 <!-- TODO: Remove this warning once completed assessment -->
-**Warning: Not yet assessed, so all criteria currently set as unmet (❌)**
+**Please note: This is a template page and has not yet been completed, so all criteria are currently set as unmet (❌)**
 
 This page evaluates the extent to which the author-published research artefacts meet the criteria of badges related to reproducibility from various organisations and journals.
 

@@ -7,6 +7,9 @@ format:
 echo: False
 ---
 
+<!-- TODO: Remove this warning once filled out report -->
+**Please note: This is a template page and has not yet been completed**
+
 <!-- TODO: Use this skeleton to create a summary report -->
 
 ## Study
