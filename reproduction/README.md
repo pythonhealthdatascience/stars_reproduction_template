@@ -30,6 +30,11 @@ TBC
 
 TBC
 
+<!-- Hint: On Linux, you can find specs by running the following commands in the terminal:
+cat /etc/os-release  # Shows operating system and version
+lscpu  # Shows computer model
+free -g  # Shows RAM in GB (combine total column) -->
+
 ## Citation
 
 TBC
