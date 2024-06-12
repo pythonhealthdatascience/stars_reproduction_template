@@ -1,10 +1,3 @@
-Once you have produced a Dockerfile for the model, you can add the following to a GitHub action file (`.github/workflows/docker_ghcr.yaml`).
-
-You'll need to amend the final run command to point the appropriate environment name.
-
-Once you have created that action, you can delete this file.
-
-```
 name: "Publish Docker image"
 # Name of this action (else will name after the commits)
 run-name: Publish Docker image on GitHub container registry (ghcr.io)
@@ -12,8 +5,10 @@ run-name: Publish Docker image on GitHub container registry (ghcr.io)
 # Source: https://dev.to/github/publishing-a-docker-image-to-githubs-container-repository-4n50
 
 on:
-  push:
-    branches: main
+# TODO: Uncomment these lines once have added Dockerfile
+# (Currently, they are ensuring that action can only be triggered manually)
+#   push:
+#     branches: main
   workflow_dispatch:
 
 jobs:
@@ -24,6 +19,10 @@ jobs:
     permissions:
       contents: read
       packages: write
+
+    # TODO: Remove this line once have added Dockerfile
+    # (Currently, its ensuring a triggered action will skip this job)
+    if: false
 
     steps:
       - name: Checkout
@@ -40,4 +39,3 @@ jobs:
         run: |
           docker build . --file reproduction/docker/Dockerfile --tag ghcr.io/pythonhealthdatascience/covid19:latest
           docker push ghcr.io/pythonhealthdatascience/covid19:latest
-```

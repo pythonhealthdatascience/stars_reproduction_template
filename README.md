@@ -79,8 +79,6 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 * `_quarto.yml` - Set-up instructions for the Quarto website.
 * `citation_apalike.bib` - APA citation generated from CITATION.cff.
 * `citation_bibtex.bib` - Bibtex citation generated from CITATION.cff.
-<!-- TODO: Remove this once it has been made into an action -->
-* `docker_ghr.md` - Command for GitHub action to upload Docker image to GitHub container repository (converted into an action once a Dockerfile has been created)
 * `index.qmd` - Home page for the Quarto website.
 * `requirements.txt` - Environment for creation of Quarto site (used by `.github/workflows/quarto_publish.yaml`).
 
