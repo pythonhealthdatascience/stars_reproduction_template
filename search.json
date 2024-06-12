@@ -4,7 +4,7 @@
     "href": "evaluation/scope.html",
     "title": "Scope",
     "section": "",
-    "text": "This page outlines that parts of the journal article which we will attempt to reproduce."
+    "text": "Please note: This is a template page and has not yet been completed\nThis page outlines that parts of the journal article which we will attempt to reproduce."
   },
   {
     "objectID": "evaluation/scope.html#within-scope",
@@ -25,7 +25,7 @@
     "href": "evaluation/reporting.html",
     "title": "Reporting guidelines",
     "section": "",
-    "text": "This page evaluates the extent to which the journal article meets the criteria from two discrete-event simulation study reporting guidelines:"
+    "text": "Please note: This is a template page and has not yet been completed\nThis page evaluates the extent to which the journal article meets the criteria from two discrete-event simulation study reporting guidelines:"
   },
   {
     "objectID": "evaluation/reporting.html#stress-des",
@@ -46,7 +46,7 @@
     "href": "evaluation/artefacts.html",
     "title": "Sharing research artefacts",
     "section": "",
-    "text": "This page evaluates the extent to which the original study meets the recommendations for the sharing of code and associated materials. We compare against two standards:"
+    "text": "Please note: This is a template page and has not yet been completed\nThis page evaluates the extent to which the original study meets the recommendations for the sharing of code and associated materials. We compare against two standards:"
   },
   {
     "objectID": "evaluation/artefacts.html#best-practice-audit",
@@ -74,14 +74,14 @@
     "href": "quarto_site/study_publication.html",
     "title": "Publication",
     "section": "",
-    "text": "View at: &lt;[Link]&gt;"
+    "text": "Please note: This is a template page and has not yet been completed"
   },
   {
     "objectID": "quarto_site/study_publication.html#code-and-data",
     "href": "quarto_site/study_publication.html#code-and-data",
     "title": "Publication",
-    "section": "",
-    "text": "View at: &lt;[Link]&gt;"
+    "section": "Code and data",
+    "text": "Code and data\n\nView at: &lt;[Link]&gt;"
   },
   {
     "objectID": "quarto_site/study_publication.html#journal-article",
@@ -221,7 +221,7 @@
     "href": "quarto_site/reproduction_readme.html",
     "title": "README for reproduction",
     "section": "",
-    "text": "TBC\n\n\n\nTBC\n\n\n\n\n\nTBC\n\n\n\nTBC\n\n\n\nTBC\n\n\n\n\nTBC\n\n\n\nTBC\n\n\n\nTBC"
+    "text": "Please note: This is a template README and has not yet been completed\n\n\n\nTBC\n\n\n\nTBC\n\n\n\n\n\nTBC\n\n\n\nTBC\n\n\n\nTBC\n\n\n\n\nTBC\n\n\n\nTBC\n\n\n\nTBC"
   },
   {
     "objectID": "quarto_site/reproduction_readme.html#model-summary",
@@ -270,14 +270,14 @@
     "href": "evaluation/reproduction_report.html",
     "title": "Summary report",
     "section": "",
-    "text": "[Authors]. [Title]. [Journal] [Volume], [Edition] ([Year]). &lt;[URL]&gt;.\n\n[Paragraph summarising model]"
+    "text": "Please note: This is a template page and has not yet been completed"
   },
   {
     "objectID": "evaluation/reproduction_report.html#study",
     "href": "evaluation/reproduction_report.html#study",
     "title": "Summary report",
-    "section": "",
-    "text": "[Authors]. [Title]. [Journal] [Volume], [Edition] ([Year]). &lt;[URL]&gt;.\n\n[Paragraph summarising model]"
+    "section": "Study",
+    "text": "Study\n\n[Authors]. [Title]. [Journal] [Volume], [Edition] ([Year]). &lt;[URL]&gt;.\n\n[Paragraph summarising model]"
   },
   {
     "objectID": "evaluation/reproduction_report.html#computational-reproducibility",
@@ -298,7 +298,7 @@
     "href": "evaluation/badges.html",
     "title": "Badges",
     "section": "",
-    "text": "Warning: Not yet assessed, so all criteria currently set as unmet (❌)\nThis page evaluates the extent to which the author-published research artefacts meet the criteria of badges related to reproducibility from various organisations and journals.\nCaveat: Please note that these criteria are based on available information about each badge online, and that we have likely differences in our procedure (e.g. allowed troubleshooting for execution and reproduction, not under tight time pressure to complete). Moreover, we focus only on reproduction of the discrete-event simulation, and not on other aspects of the article. We cannot guarantee that the badges below would have been awarded in practice by these journals."
+    "text": "Please note: This is a template page and has not yet been completed, so all criteria are currently set as unmet (❌)\nThis page evaluates the extent to which the author-published research artefacts meet the criteria of badges related to reproducibility from various organisations and journals.\nCaveat: Please note that these criteria are based on available information about each badge online, and that we have likely differences in our procedure (e.g. allowed troubleshooting for execution and reproduction, not under tight time pressure to complete). Moreover, we focus only on reproduction of the discrete-event simulation, and not on other aspects of the article. We cannot guarantee that the badges below would have been awarded in practice by these journals."
   },
   {
     "objectID": "evaluation/badges.html#criteria",
@@ -326,7 +326,7 @@
     "href": "evaluation/reproduction_success.html",
     "title": "Reproduction success",
     "section": "",
-    "text": "Of the X items in the scope, X% (X out of X) were considered to be successfully reproduced."
+    "text": "Please note: This is a template page and has not yet been completed\nOf the X items in the scope, X% (X out of X) were considered to be successfully reproduced."
   },
   {
     "objectID": "evaluation/reproduction_success.html#figure-x",
