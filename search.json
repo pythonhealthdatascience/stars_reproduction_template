@@ -147,13 +147,6 @@
     "text": "Release date: [Date]\nContributors: [Researcher name]\n[One-sentence summary of release]"
   },
   {
-    "objectID": "docker_ghr.html",
-    "href": "docker_ghr.html",
-    "title": "Reproducing Author et al. Year",
-    "section": "",
-    "text": "Once you have produced a Dockerfile for the model, you can add the following to a GitHub action file (.github/workflows/docker_ghcr.yaml).\nYou’ll need to amend the final run command to point the appropriate environment name.\nOnce you have created that action, you can delete this file.\nname: \"Publish Docker image\"\n# Name of this action (else will name after the commits)\nrun-name: Publish Docker image on GitHub container registry (ghcr.io)\n\n# Source: https://dev.to/github/publishing-a-docker-image-to-githubs-container-repository-4n50\n\non:\n  push:\n    branches: main\n  workflow_dispatch:\n\njobs:\n  Publish-docker-image:\n    name: Publish docker image\n    runs-on: ubuntu-latest\n\n    permissions:\n      contents: read\n      packages: write\n\n    steps:\n      - name: Checkout\n        uses: actions/checkout@v3\n\n      - name: Login to GitHub Container Registry\n        uses: docker/login-action@v1\n        with:\n          registry: ghcr.io\n          username: ${{ github.actor }}\n          password: ${{ secrets.GITHUB_TOKEN }}\n\n      - name: Build the Docker image\n        run: |\n          docker build . --file reproduction/docker/Dockerfile --tag ghcr.io/pythonhealthdatascience/covid19:latest\n          docker push ghcr.io/pythonhealthdatascience/covid19:latest"
-  },
-  {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
     "title": "Contributing",
