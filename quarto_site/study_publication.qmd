@@ -13,7 +13,9 @@ View at: <[Link]>
 ## Journal article
 
 <!-- TODO: Embed article PDF - e.g.
-<iframe width="100%" height="800" src="../original_study/article.pdf"></iframe>-->
+<iframe width="100%" height="800" src="../original_study/article.pdf"></iframe>
+
+Unless the article is behind the paywall and no open-access version is available - in which case, just provide link to it -->
 
 ## Supplementary materials
 
