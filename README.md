@@ -1,5 +1,5 @@
 <!-- TODO: Remove "[Template]" and amend to refer to the first author and year of the original study -->
-# [Template] STARS: Computational reproducibility of [Author] et al. [Year]
+# [Template] STARS: Computational reproducibility of [Author] et al. [Year] <a href="https://github.com/pythonhealthdatascience"><img src="quarto_site/stars_logo_blue.png" align="right" height="120" alt="STARS" /></a>
 
 <!-- TODO: Remove this paragraph -->
 **This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository"**.
