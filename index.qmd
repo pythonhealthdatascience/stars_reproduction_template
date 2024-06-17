@@ -46,7 +46,7 @@ Other members of the team on STARS:
 
 The protocol for this work is summarised in the diagram below and archived on Zenodo: **Link to Zenodo once published**.
 
-![Workflow](./quarto_site/stars_wp1_workflow.png)
+![Workflow for computational reproducibility assessment](./quarto_site/stars_wp1_workflow.png)
 
 ## Citation
 
@@ -57,4 +57,4 @@ See `CITATION.cff` and `citation_bibtex.bib` for alternative formats.
 
 ## License
 
-{{< include LICENSE >}}
+See [License page](./quarto_site/license.qmd).

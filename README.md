@@ -21,13 +21,13 @@ This repository forms part of work package 1 on the project STARS: Sharing Tools
 <!-- TODO: Amend the URL to your website -->
 ⭐ **[Click here to check out the website for this repository](https://pythonhealthdatascience.github.io/stars_reproduction_template/)** ⭐
 
-This website is created using Quarto and hosted using GitHub Pages. It shares everything from this computational reproducibility assessment, displaying:
-* The original study article and associated artefacts.
-* Code and documentation from reproduction of the model.
-* Evaluation of model reproduction success.
-* Evaluation of the original study against guidelines for sharing research, criteria for journal reproducibility guidelines, and article reporting guidelines.
-* Logbook with chronological entries detailing reproduction work.
-* Final report describing the computational reproducibility assessment.
+This website is created using Quarto and hosted using GitHub Pages. It shares everything from this computational reproducibility assessment.
+
+## Protocol
+
+The protocol for this work is summarised in the diagram below and archived on Zenodo: **Link to Zenodo once published**.
+
+![Workflow](./quarto_site/stars_wp1_workflow.png)
 
 ## Repository overview
 
@@ -81,12 +81,6 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 * `citation_bibtex.bib` - Bibtex citation generated from CITATION.cff.
 * `index.qmd` - Home page for the Quarto website.
 * `requirements.txt` - Environment for creation of Quarto site (used by `.github/workflows/quarto_publish.yaml`).
-
-## Protocol
-
-The protocol for this work is summarised in the diagram below and archived on Zenodo: **Link to Zenodo once published**.
-
-![Workflow](./quarto_site/stars_wp1_workflow.png)
 
 ## Citation
 
