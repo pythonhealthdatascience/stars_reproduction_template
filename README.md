@@ -82,6 +82,12 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 * `index.qmd` - Home page for the Quarto website.
 * `requirements.txt` - Environment for creation of Quarto site (used by `.github/workflows/quarto_publish.yaml`).
 
+## Protocol
+
+The protocol for this work is summarised in the diagram below and archived on Zenodo: **Link to Zenodo once published**.
+
+![Workflow](./quarto_site/stars_wp1_workflow.png)
+
 ## Citation
 
 If you wish to cite this repository, please refer to the citation file `CITATION.cff`, and the auto-generated alternatives `citation_apalike.apa` and `citation_bibtex.bib`.
