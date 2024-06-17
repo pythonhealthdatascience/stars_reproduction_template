@@ -67,7 +67,7 @@
     "href": "quarto_site/license.html",
     "title": "Open Source License",
     "section": "",
-    "text": "This repository is licensed under the [license].\n\n\n\n\n\n\nView license\n\n\n\n\n\nMIT License\nCopyright (c) 2024 STARS Project Team\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\nThis is aligned with the original study, who [license].\n\n\n\n\n\n\nView license\n\n\n\n\n\n\n[Embedded license]"
+    "text": "This repository is licensed under the [license].\n\n\n\n\n\n\nView license\n\n\n\n\n\nMIT License\nCopyright (c) 2024 STARS Project Team\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\n\nThis is aligned with the original study, who shared their code under [license].\n\n\n\n\n\n\nView license\n\n\n\n\n\n\n[Embedded license]\n\n\n\n\nThe original study was published in the journal “[Journal name]”. They distributed the article under [Add more details about license]\n\n\n\n\n\n\nView copyright statement from journal"
   },
   {
     "objectID": "quarto_site/study_publication.html",
@@ -200,7 +200,7 @@
     "href": "index.html#protocol",
     "title": "Reproducing Author et al. Year",
     "section": "Protocol",
-    "text": "Protocol\nThe protocol for this work is summarised in the diagram below and archived on Zenodo: Link to Zenodo once published.\n\n\n\nWorkflow"
+    "text": "Protocol\nThe protocol for this work is summarised in the diagram below and archived on Zenodo: Link to Zenodo once published.\n\n\n\nWorkflow for computational reproducibility assessment"
   },
   {
     "objectID": "index.html#citation",
@@ -214,7 +214,7 @@
     "href": "index.html#license",
     "title": "Reproducing Author et al. Year",
     "section": "License",
-    "text": "License\nMIT License\nCopyright (c) 2024 STARS Project Team\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "License\nSee License page."
   },
   {
     "objectID": "logbook/logbook.html",
