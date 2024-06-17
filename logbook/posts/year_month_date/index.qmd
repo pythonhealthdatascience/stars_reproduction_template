@@ -3,6 +3,7 @@ title: "Day X"
 author: "Researcher Name"
 date: "2024-12-25"
 categories: [setup, read, scope, reproduce, guidelines, report, compendium]
+bibliography: ../../../quarto_site/references.bib
 ---
 
 <!-- TODO: Use this template to create logbook entries -->
