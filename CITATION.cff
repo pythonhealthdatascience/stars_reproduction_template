@@ -2,30 +2,47 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-# TODO: Amend to original study last author name and year
-title: Reproducing Author et al. Year
+# TODO: Amend to "Reproducing Author et al. Year"
+title: Template for computational reproducibility assessments on STARS
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
-# TODO: List the authors involved in reproduction - first, the primary
+# TODO: Amend to list of authors involved in reproduction - first, the primary
 # researcher, followed by those providing advice/feedback on the reproduction.
 authors:
-  - given-names: Firstname
-    family-names: Lastname
-    email: example@exeter.ac.uk
-    affiliation: University of Exeter
-    orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Amy
+    family-names: Heather
+    email: a.heather2@exeter.ac.uk
+    affiliation: University of Exeter Medical School, Exeter, UK
+    orcid: 'https://orcid.org/0000-0002-6596-3479'
+  - given-names: Thomas
+    family-names: Monks
+    email: t.m.w.monks@exeter.ac.uk
+    affiliation: University of Exeter Medical School, Exeter, UK
+    orcid: 'https://orcid.org/0000-0003-2631-4481'
+  - given-names: Alison
+    family-names: Harper
+    email: a.l.harper@exeter.ac.uk
+    affiliation: University of Exeter Business School, Exeter, UK
+    orcid: 'https://orcid.org/0000-0001-5274-5037'
+  - given-names: Navonil
+    family-names: Mustafee
+    email: n.mustafee@exeter.ac.uk
+    affiliation: University of Exeter Business School, Exeter, UK
+    orcid: 'https://orcid.org/0000-0002-2204-8924'
+  - given-names: Andrew
+    family-names: Mayne
+    email: andrew.mayne@somersetft.nhs.uk
+    affiliation: Taunton and Somerset NHS Foundation Trust, UK
+    orcid: 'https://orcid.org/0000-0003-1263-2286'
 # TODO: Amend to correct repository URL
 repository-code: >-
   https://github.com/pythonhealthdatascience/stars_reproduction_template
 # TODO: Amend to citation for the original study
 abstract: >-
-  This repository forms part of work package 1 on the project STARS: Sharing
-  Tools and Artefacts for Reproducible Simulations. It assesses the
-  computational reproducibility of: [Authors]. [Title]. [Journal] [Volume],
-  [Edition] ([Year]). [URL].
+  Template repository for assessing the computational reproducibility of discrete-event simulation studies on STARS.
 license: MIT
 # TODO: Manually update with each GitHub release
-version: '0.1.0'
-date-released: '2024-06-11'
+version: '1.0.1'
+date-released: '2024-06-19'
