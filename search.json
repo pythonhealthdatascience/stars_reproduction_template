@@ -81,7 +81,7 @@
     "href": "index.html#citation",
     "title": "Reproducing Author et al. Year",
     "section": "Citation",
-    "text": "Citation\nAPA: Lastname F. (2024). Reproducing Author et al. Year (version 0.1.0). URL: https://github.com/pythonhealthdatascience/stars_reproduction_template\nSee CITATION.cff and citation_bibtex.bib for alternative formats."
+    "text": "Citation\nAPA: Heather A., Monks T., Harper A., Mustafee N., Mayne A. (2024). Template for computational reproducibility assessments on STARS (version 1.0.1). URL: https://github.com/pythonhealthdatascience/stars_reproduction_template\nSee CITATION.cff and citation_bibtex.bib for alternative formats."
   },
   {
     "objectID": "index.html#license",
