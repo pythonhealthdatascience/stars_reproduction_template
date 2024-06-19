@@ -31,8 +31,8 @@ website:
         menu:
           - evaluation/scope.qmd
           - evaluation/reproduction_success.qmd
-          - evaluation/artefacts.qmd
           - evaluation/badges.qmd
+          - evaluation/artefacts.qmd
           - evaluation/reporting.qmd
       - logbook/logbook.qmd
       - text: Summary

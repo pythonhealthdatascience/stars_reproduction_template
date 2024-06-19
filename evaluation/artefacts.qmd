@@ -1,42 +1,12 @@
 ---
-title: "Sharing research artefacts"
+title: "STARS framework"
 bibliography: ../quarto_site/references.bib
 ---
 
 <!-- TODO: Remove this warning once completed assessment -->
 **Please note: This is a template page and has not yet been completed**
 
-This page evaluates the extent to which the original study meets the recommendations for the sharing of code and associated materials. We compare against two standards:
-
-* **Best practice audit** - requirements from the best practice audit by @monks_computer_2023. The items in this audit were based on @the_turing_way_community_turing_2022, @taylor_open_2017, and @the_open_modeling_foundation_omf_reusability_2024.
-* **STARS** - recommendations from the recently published STARS framework by @monks_towards_2024.
-
-## Best practice audit
-
-Of the **11** items in this audit:
-
-<!-- TODO: Add counts from evaluation -->
-* **X** were met fully (✅)
-* **X** was met partially (🟡)
-* **X** was not met (❌)
-
-<!-- TODO: Fill in the table. Options are ✅ Fully, 🟡 Partially, or ❌ Not met -->
-| Item | Description | Met by study? | Evidence/location |
-| - | - | :-: | - |
-| Digital Object Identifier (DOI) | Does the model have a DOI and promise of persistence? Can it be cited? | <!----> | <!----> |
-| Open Researcher and Contributor ID (ORCID) | Is the model linked to one or more of the authors via an ORCID? | <!----> | <!----> |
-| License | Does the repository have a recognised open license to control the use of code, liabilty and credit? | <!----> | <!----> |
-| Model overview | Is there an obvious file that provides an overview of the repository/model and it purpose (e.g. in README file)? | <!----> | <!----> |
-| Link to published paper | Do models shared externally from journal articles contain a link to the published article? | <!----> | <!----> |
-| Steps to run code | Does the readme file or similar describe the steps required to execute the simulation model? | <!----> | <!----> |
-| Formal dependency management | Has a formal tool, e.g. renv, conda, or poetry been used to manage software dependencies for the simulation model? | <!----> | <!----> |
-| Informal dependency management | Has an informal list or description of software, or OS dependencies been provided? | <!----> | <!----> |
-| Code testing | Is there any evidence of tests that have been applied to the code to check that it functions correctly? | <!----> | <!----> |
-| Local execution | Can the simulation model and associated files be downloaded and in theory executed on a local machine | <!----> | <!----> |
-| Remote execution | Can the simulation model be executed online using free or commercial infrastructure? | <!----> | <!----> |
-: {tbl-colwidths="[25, 25, 25, 25]"}
-
-## STARS
+This page evaluates the extent to which the original study meets the recommendations from the STARS framework for the sharing of code and associated materials from discrete-event simulation models (@monks_towards_2024).
 
 Of the **8** essential STARS components:
 

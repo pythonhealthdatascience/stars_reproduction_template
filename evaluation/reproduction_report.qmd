@@ -56,7 +56,6 @@ import plotly.express as px
 # Create dataframe of results
 col = ['fully', 'partially', 'not', 'na']
 eval_dict = {
-  'Best practice audit': [1, 1, 1, 1],
   'STARS (essential)': [1, 1, 1, 1],
   'STARS (optional)': [1, 1, 1, 1],
   'Badges (criteria)': [1, 1, 1, 1],
@@ -119,4 +118,4 @@ fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
 fig.show(config={'displayModeBar': False})
 ```
 
-<sup>Context: The original study repository was evaluated against guidance for sharing of artefacts (best practice audit and STARS) and against criteria from journal badges relating to how open and reproducible the model is. The original study article and supplementary materials (excluding code) were evaluated against reporting guidelines for DES models: STRESS-DES, and guidelines adapted from ISPOR-SDM.</sup>
+<sup>Context: The original study repository was evaluated against criteria from journal badges relating to how open and reproducible the model is and against guidance for sharing artefacts from the STARS framework. The original study article and supplementary materials (excluding code) were evaluated against reporting guidelines for DES models: STRESS-DES, and guidelines adapted from ISPOR-SDM.</sup>
