@@ -26,9 +26,9 @@ Of the **5** optional STARS components:
 | - | - | :-: | - |
 | **Essential components** |
 | Open license | Free and open-source software (FOSS) license (e.g. MIT, GNU Public License (GPL)) | <!----> | <!----> |
-| Dependency management | Specify software libraries, version numbers and sources (e.g. dependency management tools like pip virtual environment, conda environment, poetry) | <!----> | <!----> |
+| Dependency management | Specify software libraries, version numbers and sources (e.g. dependency management tools like virtualenv, conda, poetry) | <!----> | <!----> |
 | FOSS model | Coded in FOSS language (e.g. R, Julia, Python) | <!----> | <!----> |
-| Minimum documentation | Minimal instructions (e.g. in README) that overview (a) what model does, (b) how to install and run model to obtain results, and (c) how to vary parameters to run new experiements | | |
+| Minimum documentation | Minimal instructions (e.g. in README) that overview (a) what model does, (b) how to install and run model to obtain results, and (c) how to vary parameters to run new experiments | | |
 | ORCID | ORCID for each study author | <!----> | <!----> |
 | Citation information | Instructions on how to cite the research artefact (e.g. CITATION.cff file) | <!----> | <!----> |
 | Remote code repository | Code available in a remote code repository (e.g. GitHub, GitLab, BitBucket) | <!----> | <!----> |
