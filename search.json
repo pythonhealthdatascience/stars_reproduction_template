@@ -112,13 +112,6 @@
     "text": "10.20-10.33: Task B\nMore notes.\n\n\n\n\n\n\nCollapsible callout\n\n\n\n\n\nCan use these to help keep repository organised if you are adding lots of notes for a particular task (e.g. notes from read through of paper)."
   },
   {
-    "objectID": "logbook/posts/year_month_date/index.html#comparing-best-practice-audit-results-with-monks-and-harper",
-    "href": "logbook/posts/year_month_date/index.html#comparing-best-practice-audit-results-with-monks-and-harper",
-    "title": "Day X",
-    "section": "14.21-14.40: Comparing best practice audit results with Monks and Harper",
-    "text": "14.21-14.40: Comparing best practice audit results with Monks and Harper\n\n\nimport pandas as pd\n\n# Import review results\nreview = pd.read_csv('bp_audit_clean.csv')\n\n# Example: View the results for Allen et al. 2020\nreview[review['key'] == 'R4ZLYWPP'].T\n\n\n\n\n\n\n\n\n17\n\n\n\n\nUnnamed: 0\n17\n\n\nmodel_format\nCODE\n\n\nkey\nR4ZLYWPP\n\n\nitem_type\njournalArticle\n\n\npub_yr\n2020\n\n\nauthor\nAllen, M.; Bhanji, A.; Willemsen, J.; Dudfield...\n\n\ndoi\n10.1371/journal.pone.0237628\n\n\nreporting_guidelines_mention\nSTRESS\n\n\ncovid\n1\n\n\nsim_software\nSimPy\n\n\nfoss_sim\n1\n\n\nmodel_archive\nZenodo\n\n\nmodel_repo\nGitHub\n\n\nmodel_journal_supp\nNaN\n\n\nmodel_personal_org\nNaN\n\n\nmodel_platform\nBinderHub\n\n\ngithub_url\nhttps://git.exeter.ac.uk/tmwm201/dialysis-serv...\n\n\nmodel_has_doi\n1\n\n\norcid\n0.0\n\n\nlicense\nMIT\n\n\nreadme\n1\n\n\nlink_to_paper\n0.0\n\n\nsteps_run\n1\n\n\nformal_dep_mgt\n1\n\n\ninformal_dep_mgt\n0\n\n\nevidence_testing\n1.0\n\n\ndownloadable\n1\n\n\ninteractive_online\n1"
-  },
-  {
     "objectID": "logbook/posts/year_month_date/index.html#timings",
     "href": "logbook/posts/year_month_date/index.html#timings",
     "title": "Day X",
