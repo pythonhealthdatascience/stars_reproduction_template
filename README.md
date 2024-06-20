@@ -1,13 +1,17 @@
 <!-- TODO: Remove "[Template]" and amend to refer to the first author and year of the original study -->
 # [Template] STARS: Computational reproducibility of [Author] et al. [Year] <a href="https://github.com/pythonhealthdatascience"><img src="quarto_site/stars_logo_blue.png" align="right" height="120" alt="STARS" /></a>
 
-<!-- TODO: Remove this paragraph -->
-**This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository"**.
+<!-- TODO: Remove these introductory paragraphs about the template -->
+**This is a template repository for assessing the computational reproducibility of simulation studies on STARS. To use this template, please select the "use this template" button and then "create a new repository".**
 
-<!-- TODO: Remove this paragraph -->
+**It has been archived on Zenodo:**
+
+> **Heather, A., Monks, T., Harper, A., Mustafee, N., & Mayne, A. (2024). Template for computational reproducibility assessments on STARS. Zenodo. <https://zenodo.org/doi/10.5281/zenodo.12168890>.**
+
 **If you are using VSCode and encounter an error rendering files containing code - e.g. "*ERROR: Not a directory (os error 20): stat '/bin/python3/'*" - this is likely because you haven't set an interpreter for that file. You can do so via Ctrl+Shift+P "Python: Select Interpreter". You can use different interpreters for different files.**
 
 <!-- Status badge from GitHub action checking validity of CITATION.cff -->
+<!-- TODO: Add DOI badge once repository has been archived on Zenodo -->
 <!-- TODO: Amend the URL to your repository -->
 [![Valid CITATION.cff](https://github.com/pythonhealthdatascience/stars_reproduction_template/actions/workflows/cff_validation.yaml/badge.svg)](https://github.com/pythonhealthdatascience/stars_reproduction_template/actions/workflows/cff_validation.yaml)
 
@@ -25,7 +29,9 @@ This website is created using Quarto and hosted using GitHub Pages. It shares ev
 
 ## Protocol
 
-The protocol for this work is summarised in the diagram below and archived on Zenodo: **Link to Zenodo once published**.
+The protocol for this work is summarised in the diagram below and archived on Zenodo:
+
+> Heather, A., Monks, T., Harper, A., Mustafee, N., & Mayne, A. (2024). Protocol for assessing the computational reproducibility of discrete-event simulation models on STARS. Zenodo. <https://doi.org/10.5281/zenodo.12179846>.
 
 ![Workflow](./quarto_site/stars_wp1_workflow.png)
 
