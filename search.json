@@ -74,7 +74,7 @@
     "href": "index.html#protocol",
     "title": "Reproducing Author et al. Year",
     "section": "Protocol",
-    "text": "Protocol\nThe protocol for this work is summarised in the diagram below and archived on Zenodo: Link to Zenodo once published.\n\n\n\nWorkflow for computational reproducibility assessment"
+    "text": "Protocol\nThe protocol for this work is summarised in the diagram below and archived on Zenodo:\n\nHeather, A., Monks, T., Harper, A., Mustafee, N., & Mayne, A. (2024). Protocol for assessing the computational reproducibility of discrete-event simulation models on STARS. Zenodo. https://doi.org/10.5281/zenodo.12179846.\n\n\n\n\nWorkflow for computational reproducibility assessment"
   },
   {
     "objectID": "index.html#citation",
