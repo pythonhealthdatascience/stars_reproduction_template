@@ -20,7 +20,7 @@ echo: False
 
 ## Computational reproducibility
 
-Successfully reproduced **X figures (X%)** within scope in **Xh Xm (X%)**.
+Successfully reproduced **X out of X (X%)** of items from the scope in **Xh Xm (X%)**.
 
 Required troubleshooting:
 
