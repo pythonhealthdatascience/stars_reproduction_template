@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Reproducing Author et al.&nbsp;Year - Journal badges</title>
+<title>Journal badges – Reproducing Author et al.&nbsp;Year</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -140,7 +140,7 @@ div.csl-indent {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -150,7 +150,7 @@ div.csl-indent {
 <span class="menu-text">Original study</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reproduction" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reproduction" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Reproduction</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-reproduction">    
@@ -161,7 +161,7 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-evaluation" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-evaluation" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Evaluation</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-evaluation">    
@@ -195,6 +195,10 @@ div.csl-indent {
     <a class="nav-link" href="../evaluation/reproduction_report.html"> 
 <span class="menu-text">Summary</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../evaluation/reflections.html"> 
+<span class="menu-text">Reflections</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -204,7 +208,7 @@ div.csl-indent {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -252,7 +256,7 @@ div.csl-indent {
 <p><em>Caveat: Please note that these criteria are based on available information about each badge online, and that we have likely differences in our procedure (e.g.&nbsp;allowed troubleshooting for execution and reproduction, not under tight time pressure to complete). Moreover, we focus only on reproduction of the discrete-event simulation, and not on other aspects of the article. We cannot guarantee that the badges below would have been awarded in practice by these journals.</em></p>
 <section id="criteria" class="level2">
 <h2 class="anchored" data-anchor-id="criteria">Criteria</h2>
-<div id="a5998368" class="cell" data-execution_count="1">
+<div id="839104ae" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, Markdown</span>
@@ -281,16 +285,16 @@ div.csl-indent {
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="bu">eval</span> <span class="op">=</span> pd.Series({</span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">'archive'</span>: <span class="dv">0</span>,</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">'id'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">'license'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">'complete'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_sufficient'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_careful'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">'relevant'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">'execute'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">'structure'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">'regenerated'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">'hour'</span>: <span class="dv">0</span>,</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_readme'</span>: <span class="dv">0</span>,</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">'license'</span>: <span class="dv">1</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">'relevant'</span>: <span class="dv">1</span>,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="st">'complete'</span>: <span class="dv">1</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="st">'structure'</span>: <span class="dv">0</span>,</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_sufficient'</span>: <span class="dv">0</span>,</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_careful'</span>: <span class="dv">0</span>,</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">'documentation_readme'</span>: <span class="dv">0</span>,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">'execute'</span>: <span class="dv">1</span>,</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">'regenerated'</span>: <span class="dv">1</span>,</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">'hour'</span>: <span class="dv">0</span>,</span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>})</span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Get list of criteria met (True/False) overall</span></span>
@@ -355,17 +359,17 @@ div.csl-indent {
 </details>
 <div class="cell-output cell-output-display cell-output-markdown">
 <p>To assess whether the author’s materials met the requirements of each badge, a list of criteria was produced. Between each badge (and between categories of badge), there is often alot of overlap in criteria.</p>
-<p>This study met <strong>0 of the 12</strong> unique criteria items. These were as follows:</p>
+<p>This study met <strong>5 of the 12</strong> unique criteria items. These were as follows:</p>
 <p>Criteria related to how artefacts are shared -</p>
 <ul>
 <li>❌ Stored in a permanent archive that is publicly and openly accessible</li>
 <li>❌ Has a persistent identifier</li>
-<li>❌ Includes an open license</li>
+<li>✅ Includes an open license</li>
 </ul>
 <p>Criteria related to what artefacts are shared -</p>
 <ul>
-<li>❌ Arefacts are relevant to and contribute to the article’s results</li>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Arefacts are relevant to and contribute to the article’s results</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
 </ul>
 <p>Criteria related to the structure and documentation of the artefacts -</p>
 <ul>
@@ -376,8 +380,8 @@ div.csl-indent {
 </ul>
 <p>Criteria related to running and reproducing results -</p>
 <ul>
-<li>❌ Scripts can be successfully executed</li>
-<li>❌ Independent party regenerated results using the authors research artefacts</li>
+<li>✅ Scripts can be successfully executed</li>
+<li>✅ Independent party regenerated results using the authors research artefacts</li>
 <li>❌ Reproduced within approximately one hour (excluding compute time)</li>
 </ul>
 </div>
@@ -385,7 +389,7 @@ div.csl-indent {
 </section>
 <section id="badges" class="level2">
 <h2 class="anchored" data-anchor-id="badges">Badges</h2>
-<div id="902591f1" class="cell" data-execution_count="2">
+<div id="f8d048b4" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Full badge names</span></span>
@@ -510,11 +514,11 @@ div.csl-indent {
 <span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>create_badge_callout({k: v <span class="cf">for</span> (k, v) <span class="kw">in</span> award.items() <span class="cf">if</span> k.startswith(<span class="st">'reproduce_'</span>)})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display cell-output-markdown">
-<p>In total, the original study met the criteria for <strong>0 of the 12 badges</strong>. This included:</p>
+<p>In total, the original study met the criteria for <strong>5 of the 12 badges</strong>. This included:</p>
 <ul>
-<li><strong>0 of the 5</strong> “open objects” badges</li>
-<li><strong>0 of the 3</strong> “object review” badges</li>
-<li><strong>0 of the 4</strong> “reproduced” badges</li>
+<li><strong>1 of the 5</strong> “open objects” badges</li>
+<li><strong>1 of the 3</strong> “object review” badges</li>
+<li><strong>3 of the 4</strong> “reproduced” badges</li>
 </ul>
 </div>
 <section id="open-objects-badges" class="level3 cell-output cell-output-display cell-output-markdown">
@@ -538,7 +542,7 @@ div.csl-indent {
 <ul>
 <li>❌ Stored in a permanent archive that is publicly and openly accessible</li>
 <li>❌ Has a persistent identifier</li>
-<li>❌ Includes an open license</li>
+<li>✅ Includes an open license</li>
 </ul>
 </div>
 </div>
@@ -561,8 +565,8 @@ div.csl-indent {
 <ul>
 <li>❌ Stored in a permanent archive that is publicly and openly accessible</li>
 <li>❌ Has a persistent identifier</li>
-<li>❌ Includes an open license</li>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Includes an open license</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
 </ul>
 </div>
 </div>
@@ -607,8 +611,8 @@ div.csl-indent {
 <ul>
 <li>❌ Stored in a permanent archive that is publicly and openly accessible</li>
 <li>❌ Has a persistent identifier</li>
-<li>❌ Includes an open license</li>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Includes an open license</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
 <li>❌ Artefacts are sufficiently documented (i.e.&nbsp;to understand how it works, to enable it to be run, including package versions)</li>
 </ul>
 </div>
@@ -616,21 +620,21 @@ div.csl-indent {
 </div>
 </div>
 <div class="cell-output cell-output-display cell-output-markdown">
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-❌ IEEE “Code Available”
+✅ IEEE “Code Available”
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Does not meet all criteria:</p>
+<p>Meets all criteria:</p>
 <ul>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
 </ul>
 </div>
 </div>
@@ -656,9 +660,9 @@ div.csl-indent {
 <p>Does not meet all criteria:</p>
 <ul>
 <li>❌ Artefacts are sufficiently documented (i.e.&nbsp;to understand how it works, to enable it to be run, including package versions)</li>
-<li>❌ Arefacts are relevant to and contribute to the article’s results</li>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
-<li>❌ Scripts can be successfully executed</li>
+<li>✅ Arefacts are relevant to and contribute to the article’s results</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Scripts can be successfully executed</li>
 </ul>
 </div>
 </div>
@@ -681,9 +685,9 @@ div.csl-indent {
 <ul>
 <li>❌ Artefacts are sufficiently documented (i.e.&nbsp;to understand how it works, to enable it to be run, including package versions)</li>
 <li>❌ Artefacts are carefully documented (more than sufficient - i.e.&nbsp;to the extent that reuse and repurposing is facilitated - e.g.&nbsp;changing parameters, reusing for own purpose)</li>
-<li>❌ Arefacts are relevant to and contribute to the article’s results</li>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
-<li>❌ Scripts can be successfully executed</li>
+<li>✅ Arefacts are relevant to and contribute to the article’s results</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Scripts can be successfully executed</li>
 <li>❌ Artefacts are well structured/organised (e.g.&nbsp;to the extent that reuse and repurposing is facilitated, adhering to norms and standards of research community)</li>
 </ul>
 </div>
@@ -691,22 +695,22 @@ div.csl-indent {
 </div>
 </div>
 <div class="cell-output cell-output-display cell-output-markdown">
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-❌ IEEE “Code Reviewed”
+✅ IEEE “Code Reviewed”
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Does not meet all criteria:</p>
+<p>Meets all criteria:</p>
 <ul>
-<li>❌ Complete set of materials shared (as would be needed to fully reproduce article)</li>
-<li>❌ Scripts can be successfully executed</li>
+<li>✅ Complete set of materials shared (as would be needed to fully reproduce article)</li>
+<li>✅ Scripts can be successfully executed</li>
 </ul>
 </div>
 </div>
@@ -717,63 +721,63 @@ div.csl-indent {
 <p>These badges relate to an independent party regenerating the reuslts of the article using the author objects.</p>
 </section>
 <div class="cell-output cell-output-display cell-output-markdown">
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-❌ NISO “Results Reproduced (ROR-R)”
+✅ NISO “Results Reproduced (ROR-R)”
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Does not meet all criteria:</p>
+<p>Meets all criteria:</p>
 <ul>
-<li>❌ Independent party regenerated results using the authors research artefacts</li>
+<li>✅ Independent party regenerated results using the authors research artefacts</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display cell-output-markdown">
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-❌ ACM “Results Reproduced”
+✅ ACM “Results Reproduced”
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Does not meet all criteria:</p>
+<p>Meets all criteria:</p>
 <ul>
-<li>❌ Independent party regenerated results using the authors research artefacts</li>
+<li>✅ Independent party regenerated results using the authors research artefacts</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 <div class="cell-output cell-output-display cell-output-markdown">
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-❌ IEEE “Code Reproducible”
+✅ IEEE “Code Reproducible”
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Does not meet all criteria:</p>
+<p>Meets all criteria:</p>
 <ul>
-<li>❌ Independent party regenerated results using the authors research artefacts</li>
+<li>✅ Independent party regenerated results using the authors research artefacts</li>
 </ul>
 </div>
 </div>
@@ -794,7 +798,7 @@ div.csl-indent {
 <div class="callout-body-container callout-body">
 <p>Does not meet all criteria:</p>
 <ul>
-<li>❌ Independent party regenerated results using the authors research artefacts</li>
+<li>✅ Independent party regenerated results using the authors research artefacts</li>
 <li>❌ Reproduced within approximately one hour (excluding compute time)</li>
 <li>❌ Artefacts are well structured/organised (e.g.&nbsp;to the extent that reuse and repurposing is facilitated, adhering to norms and standards of research community)</li>
 <li>❌ Artefacts are clearly documented and accompanied by a README file with step-by-step instructions on how to reproduce results in the manuscript</li>
@@ -894,18 +898,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -937,7 +930,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/pythonhealthdatascience\.github\.io\/stars_reproduction_template\/");
@@ -945,7 +960,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
