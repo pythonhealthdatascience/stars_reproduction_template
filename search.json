@@ -4,14 +4,28 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning. Dates formatted as YYYY-MM-DD as per ISO standard.\n\n\n\nRelease date: [Date]\nContributors: [Researcher name]\n[One-sentence summary of release]"
+    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning. Dates formatted as YYYY-MM-DD as per ISO standard.\n\n\n\nRelease date: 3rd July 2024\nContributors: Amy Heather\nMinor improvements following the first reproducibility assessment (Shoaib and Ramamohan 2022).\n\n\n\nTemplate page (reflections.qmd) for reflections on facilitators and barriers to reproduction, and for full list of troubleshooting steps\n\n\n\n\n\nAdd .vscode/ to .gitignore\nAdd citation to protocol on quarto site home page\nOrder of criteria in badges.qmd (so it is a consistent order between the dictionary of criteria names and results, making it easier when conducting the assessment to look between the two)\nAmended TODO: comments in CHANGELOG and GHCR GitHub action\nAdd missing &lt;!--- --&gt; marker in artefacts.qmd\nImproved the “succesfully reproduced” template sentence in reproduction_report.qmd\n\n\n\n\n\nRelease date: 19th June 2024\nContributors: Amy Heather\nFix to citation file to prevent error on Zenodo.\n\n\n\nCompleted CITATION.cff to reflect this repository (rather than to be a blank example), to prevent error when syncing with Zenodo\n\n\n\n\n\nRelease date: 19th June 2024\nContributors: Amy Heather, with review of the protocol and associated artefacts (such as this template) from Tom Monks, Alison Harper and Nav Mustafee\nInitial release of template repository. 🌱"
   },
   {
-    "objectID": "CHANGELOG.html#v0.1.0",
-    "href": "CHANGELOG.html#v0.1.0",
+    "objectID": "CHANGELOG.html#v1.0.2",
+    "href": "CHANGELOG.html#v1.0.2",
     "title": "Changelog",
     "section": "",
-    "text": "Release date: [Date]\nContributors: [Researcher name]\n[One-sentence summary of release]"
+    "text": "Release date: 3rd July 2024\nContributors: Amy Heather\nMinor improvements following the first reproducibility assessment (Shoaib and Ramamohan 2022).\n\n\n\nTemplate page (reflections.qmd) for reflections on facilitators and barriers to reproduction, and for full list of troubleshooting steps\n\n\n\n\n\nAdd .vscode/ to .gitignore\nAdd citation to protocol on quarto site home page\nOrder of criteria in badges.qmd (so it is a consistent order between the dictionary of criteria names and results, making it easier when conducting the assessment to look between the two)\nAmended TODO: comments in CHANGELOG and GHCR GitHub action\nAdd missing &lt;!--- --&gt; marker in artefacts.qmd\nImproved the “succesfully reproduced” template sentence in reproduction_report.qmd"
+  },
+  {
+    "objectID": "CHANGELOG.html#v1.0.1",
+    "href": "CHANGELOG.html#v1.0.1",
+    "title": "Changelog",
+    "section": "",
+    "text": "Release date: 19th June 2024\nContributors: Amy Heather\nFix to citation file to prevent error on Zenodo.\n\n\n\nCompleted CITATION.cff to reflect this repository (rather than to be a blank example), to prevent error when syncing with Zenodo"
+  },
+  {
+    "objectID": "CHANGELOG.html#v1.0.0",
+    "href": "CHANGELOG.html#v1.0.0",
+    "title": "Changelog",
+    "section": "",
+    "text": "Release date: 19th June 2024\nContributors: Amy Heather, with review of the protocol and associated artefacts (such as this template) from Tom Monks, Alison Harper and Nav Mustafee\nInitial release of template repository. 🌱"
   },
   {
     "objectID": "quarto_site/study_publication.html",
