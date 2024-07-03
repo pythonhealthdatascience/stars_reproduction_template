@@ -35,7 +35,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      # TODO: Update "envname" below to the correct name for your project's environment
       - name: Build the Docker image
         run: |
-          docker build . --file reproduction/docker/Dockerfile --tag ghcr.io/pythonhealthdatascience/covid19:latest
-          docker push ghcr.io/pythonhealthdatascience/covid19:latest
+          docker build . --file reproduction/docker/Dockerfile --tag ghcr.io/pythonhealthdatascience/envname:latest
+          docker push ghcr.io/pythonhealthdatascience/envname:latest
