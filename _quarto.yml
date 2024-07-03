@@ -37,6 +37,8 @@ website:
       - logbook/logbook.qmd
       - text: Summary
         href: evaluation/reproduction_report.qmd
+      - text: Reflections
+        href: evaluation/reflections.qmd
     # Right-aligned within navbar...
     # TODO: Correct URL
     right:
