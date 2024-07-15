@@ -7,9 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- TODO: Delete the CHANGELOG entries for the reproduction template, but use their structure to create entries for your project, i.e.
 
-## v0.1.0
-
-**Release date:** [Date]
+## v0.1.0 - Date
 
 **Contributors:** [Researcher name]
 
@@ -32,9 +30,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *
 -->
 
-## v1.0.2
+## v1.0.3 <!--DATE-->
 
-**Release date:** 3rd July 2024
+**Contributors:** Amy Heather
+
+Minor improvements following the second reproducibility assessment ([Huang et al. 2019](https://github.com/pythonhealthdatascience/stars-reproduce-huang-2019)).
+
+<!--LOG CHANGES-->
+
+## v1.0.2 - 2024-07-03
 
 **Contributors:** Amy Heather
 
@@ -53,9 +57,7 @@ Minor improvements following the first reproducibility assessment ([Shoaib and R
 * Add missing `<!--- -->` marker in `artefacts.qmd`
 * Improved the "succesfully reproduced" template sentence in `reproduction_report.qmd`
 
-## v1.0.1
-
-**Release date:** 19th June 2024
+## v1.0.1 - 2024-06-19
 
 **Contributors:** Amy Heather
 
@@ -65,9 +67,7 @@ Fix to citation file to prevent error on Zenodo.
 
 * Completed `CITATION.cff` to reflect this repository (rather than to be a blank example), to prevent error when syncing with Zenodo
 
-## v1.0.0
-
-**Release date:** 19th June 2024
+## v1.0.0 0 2024-06-19
 
 **Contributors:** Amy Heather, with review of the protocol and associated artefacts (such as this template) from Tom Monks, Alison Harper and Nav Mustafee
 
