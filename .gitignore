@@ -3,3 +3,20 @@ _freeze/
 /.quarto/
 __pycache__/
 .vscode/
+ignore/
+
+*.html
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
