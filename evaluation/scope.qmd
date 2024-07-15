@@ -10,7 +10,9 @@ bibliography: ../quarto_site/references.bib
 
 <!-- NOTE: If you do not have a license allowing you to upload and reuse images from the article, then you should describe them below, and direct the reader to a link to the article -->
 
-This page outlines that parts of the journal article which we will attempt to reproduce.
+This page outlines the parts of the journal article which we will attempt to reproduce.
+
+All images and quotes on this page are sourced from <!-- TODO: Add citation to original study -->
 
 ## Within scope
 
