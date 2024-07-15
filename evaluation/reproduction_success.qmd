@@ -20,13 +20,14 @@ import pandas as pd
 from time_to_complete import process_times, success_static, success_interactive
 
 # List of time to complete each item
+# TODO: Change to actual items and times for this project
 time_list = [
-    [516, 'In-text result 1'],
-    [1193, 'In-text result 2'],
-    [1450, 'Figure 2'], # Finished work, not completed, adjust to set to NaN
+    [100, 'In-text result 1'],
+    [200, 'In-text result 2'],
+    [400, 'Figure 2'], # Finished work, not completed, adjust to set to NaN
     [np.nan, 'Figure 3'],
     [np.nan, 'Figure 4'],
-    [1228, 'Figure 5'],
+    [300, 'Figure 5'],
     [np.nan, 'Supplementary figure'],
     [np.nan, 'In-text result 3']]
 times_df = process_times(time_list, adjust='Figure 2')
