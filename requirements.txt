@@ -3,7 +3,5 @@
 jupyter==1.0.0
 pandas==2.2.2
 plotly==5.22.0
-
-# 17 June 2024: Tenacity (one of the dependencies of the above) released 8.4.0
-# today which breaks langchain, so force to use 8.3.0
 tenacity==8.3.0
+matplotlib==3.9.1
