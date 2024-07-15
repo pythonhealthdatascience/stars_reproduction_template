@@ -12,23 +12,26 @@ def min_hour(time):
 
     Returns:
     --------
-    string: str
+    string : str
         String stating the time in minutes, or hours and minutes
     '''
     return f'{int(time)}m, or {int(time)//60}h {int(time)%60}m'
 
 
-def calculate_times(used_to_date, times):
+def calculate_times(used_to_date, times, limit=True):
     '''
     Calculates the time used today, total time used, and time remaining.
 
     Parameters:
     -----------
-    used_to_date: int
+    used_to_date : int
         Total time used prior to that day in minutes
-    times: list
+    times : list
         List of tuples with 24h times
         Example: [('11.01', '12.13'), ('14.45', '14.59')]
+    limit : boolean
+        Whether there is a 40h time limit (and hence, whether to return
+        proportion of time used, and time remaining)
     '''
     FMT = '%H.%M'
     total_min = 0
@@ -46,10 +49,12 @@ def calculate_times(used_to_date, times):
     total_used = total_min + used_to_date
     print(f'Total used to date: {min_hour(total_used)}')
 
-    # Find time remaining
-    max = 40*60
-    remain_min = max - total_used
-    print(f'Time remaining: {min_hour(remain_min)}')
+    if limit:
+        # Find time remaining
+        max = 40*60
+        remain_min = max - total_used
+        print(f'Time remaining: {min_hour(remain_min)}')
 
-    # Find proportion out of 40 hours
-    print(f'Used {round((total_min+used_to_date)/max*100,1)}% of 40 hours max')
+        # Find proportion out of 40 hours
+        prop = round((total_min+used_to_date)/max*100, 1)
+        print(f'Used {prop}% of 40 hours max')
