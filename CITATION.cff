@@ -42,6 +42,7 @@ repository-code: >-
 # TODO: Amend to short description of repo and citation for the original study
 abstract: >-
   Template repository for assessing the computational reproducibility of discrete-event simulation studies on STARS.
+# TODO: Update license if not using MIT
 license: MIT
 # TODO: Manually update with each GitHub release (start with 0.1.0)
 version: '1.0.1'
