@@ -30,13 +30,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *
 -->
 
-## v1.0.3 <!--DATE-->
+## v1.0.3 - 2024-07-19
 
 **Contributors:** Amy Heather
 
 Minor improvements following the second reproducibility assessment ([Huang et al. 2019](https://github.com/pythonhealthdatascience/stars-reproduce-huang-2019)).
 
-<!--LOG CHANGES-->
+### Added
+
+* Interactive and non-interactive time-to-completion figures add to `reproduction_success.qmd`, with `time_to_complete.py` producing figures
+* Add R-related items to `.gitignore`
+* Add option to not show limit on time from `calculate_times()`
+
+### Changed
+
+* Corrected spelling of "artefacts" in `badges.qmd` and add sentence to cite original study in `scope.qmd`
+* Updated `references.bib`
+* Add `matplotlib` to `requirements.txt`
 
 ## v1.0.2 - 2024-07-03
 
