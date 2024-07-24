@@ -1,5 +1,6 @@
 ---
 title: "Scope"
+echo: False
 bibliography: ../quarto_site/references.bib
 ---
 

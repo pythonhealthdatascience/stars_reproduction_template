@@ -5,6 +5,7 @@ format:
   html:
     page-layout: full
 echo: False
+bibliography: ../quarto_site/references.bib
 ---
 
 <!-- TODO: Remove this warning once filled out report -->

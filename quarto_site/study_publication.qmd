@@ -1,9 +1,12 @@
 ---
 title: "Publication"
+bibliography: references.bib
 ---
 
 <!-- TODO: Remove this warning once filled out page -->
 **Please note: This is a template page and has not yet been completed**
+
+<!-- TODO: Add citation from .bib file i.e. @study_word_year -->
 
 ## Code and data
 

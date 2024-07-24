@@ -1,5 +1,7 @@
 ---
 title: "Reproduction success"
+echo: False
+bibliography: ../quarto_site/references.bib
 ---
 
 <!-- TODO: Remove this warning once completed assessment -->
@@ -50,7 +52,7 @@ success_interactive(times_df)
 
 **Consensus: Not reproduced / Successfully reproduced**
 
-Original figure:
+Original (citation):
 
 <!-- Image, e.g.
 ![](../original_study/fig2.jpg){width=80% fig-align="center" .lightbox} -->
