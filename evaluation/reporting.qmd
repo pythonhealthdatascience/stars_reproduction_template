@@ -65,8 +65,8 @@ Of the **18** items in the checklist:
 
 <!-- TODO: Add counts from evaluation -->
 * **X** were met fully (✅)
-* **X** was partially met (🟡)
-* **X** was not met (❌)
+* **X** were partially met (🟡)
+* **X** were not met (❌)
 * **X** were not applicable (N/A)
 
 <!-- TODO: Fill in the table. Options are ✅ Fully, 🟡 Partially, ❌ Not met, or N/A
