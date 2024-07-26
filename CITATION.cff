@@ -45,5 +45,5 @@ abstract: >-
 # TODO: Update license if not using MIT
 license: MIT
 # TODO: Manually update with each GitHub release (start with 0.1.0)
-version: '1.0.3'
-date-released: '2024-07-19'
+version: '1.0.4'
+date-released: '2024-07-26'
