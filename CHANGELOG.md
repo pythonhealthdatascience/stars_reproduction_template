@@ -30,6 +30,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 *
 -->
 
+## v1.0.4 - 2024-07-26
+
+**Contributors:** Amy Heather
+
+Minor improvements following the third reproducibility assessment ([Lim et al. 2020](https://github.com/pythonhealthdatascience/stars-reproduce-lim-2020)).
+
+### Changed
+
+* Add references to .yaml header in `reproduction_report.qmd`, `reproduction_success.qmd` and `study_publication.qmd` and set echo as false for `scope.qmd`
+* Amended grammar in `reporting.qmd` bullet list
+* Updated `references.bib`
+
 ## v1.0.3 - 2024-07-19
 
 **Contributors:** Amy Heather
