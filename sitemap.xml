@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/index.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
     <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/CHANGELOG.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/logbook/posts/year_month_date/index.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/CONTRIBUTING.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/scope.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
   </url>
   <url>
     <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/artefacts.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/badges.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/license.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/reproduction_readme.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/study_publication.html</loc>
-    <lastmod>2024-07-26T14:45:27.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reporting.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reproduction_success.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reproduction_report.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
   </url>
   <url>
     <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reflections.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/scope.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/logbook/posts/year_month_date/index.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/reproduction_readme.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/license.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/quarto_site/study_publication.html</loc>
+    <lastmod>2024-08-20T11:15:41.309Z</lastmod>
   </url>
   <url>
     <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/logbook/logbook.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
   </url>
   <url>
-    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/index.html</loc>
-    <lastmod>2024-07-26T14:45:27.697Z</lastmod>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reporting.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/badges.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reproduction_success.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/evaluation/reproduction_report.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pythonhealthdatascience.github.io/stars_reproduction_template/CONTRIBUTING.html</loc>
+    <lastmod>2024-08-20T11:15:41.301Z</lastmod>
   </url>
 </urlset>
